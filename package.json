@@ -1,6 +1,20 @@
 {
-  "name": "hardhat-project",
+  "name": "se-star-main",
+  "version": "1.0.0",
+  "description": "Web3 security dashboard and admin platform.",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server .",
+    "start": "live-server .",
+    "test": "npx hardhat test",
+    "lint": "eslint ."
+  },
   "devDependencies": {
-    "hardhat": "^2.25.0"
-  }
+    "hardhat": "^2.25.0",
+    "eslint": "^8.56.0",
+    "live-server": "^1.2.2"
+  },
+  "dependencies": {},
+  "author": "yg209",
+  "license": "MIT"
 }
